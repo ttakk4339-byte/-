@@ -1,0 +1,7 @@
+aiogram==3.7.0
+fastapi
+uvicorn
+sqlalchemy
+aiosqlite
+python-dotenv
+jinja2
