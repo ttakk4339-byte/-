@@ -1,0 +1,31 @@
+escrow-demo-bot/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── bot/
+│   │   ├── __init__.py
+│   │   ├── bot.py
+│   │   ├── ui.py
+│   │   ├── keyboards/
+│   │   │   ├── __init__.py
+│   │   │   └── deal_kb.py
+│   │   └── handlers/
+│   │       ├── __init__.py
+│   │       └── deal.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── database.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── deal.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   └── deal_service.py
+│   └── admin/
+│       ├── __init__.py
+│       ├── main.py
+│       └── templates/
+│           └── dashboard.html
+├── requirements.txt
+└── .env
